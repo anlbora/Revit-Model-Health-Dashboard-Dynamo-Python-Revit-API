@@ -188,5 +188,3 @@ This project was developed as part of a BIM automation learning journey focused 
 * BIM data analytics
 * Model governance workflows
 * Digital construction technologies
-
----
