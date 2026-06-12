@@ -134,16 +134,6 @@ The generated report includes:
 
 ---
 
-## Technology Stack
-
-* Autodesk Revit
-* Dynamo
-* Python
-* Revit API
-* HTML
-* CSS
-
----
 
 ## Workflow
 
@@ -188,22 +178,6 @@ Detailed Sheet Inventory
 
 ---
 
-## Future Development
-
-Planned improvements include:
-
-* Excel export
-* Historical model comparison
-* Configurable scoring rules
-* Trend tracking between model versions
-* Discipline-specific dashboards
-* BIM Execution Plan compliance checks
-* Model naming convention audits
-* Family quality auditing
-* Automated QA/QC rule engine
-
----
-
 ## Learning Objectives
 
 This project was developed as part of a BIM automation learning journey focused on:
@@ -216,27 +190,3 @@ This project was developed as part of a BIM automation learning journey focused 
 * Digital construction technologies
 
 ---
-
-## Author
-
-**Elif Naz Çelik**
-
-PhD Researcher in Architecture
-Teaching & Research Assistant — İzmir Institute of Technology (IZTECH)
-
-### Research Interests
-
-* Heritage Building Information Modeling (HBIM)
-* BIM Automation
-* Digital Twins
-* Energy Efficiency Assessment
-* Computational Design
-* Revit API Development
-
----
-
-## License
-
-MIT License
-
-Feel free to use, modify, and improve this project.
