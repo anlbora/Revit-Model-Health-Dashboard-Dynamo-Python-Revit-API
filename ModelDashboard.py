@@ -14,7 +14,7 @@ doc = DocumentManager.Instance.CurrentDBDocument
 html_path = IN[0]
 
 # ── Unit conversion helper ─────────────────────────────────────────────────────
-# Revit stores lengths in decimal feet internally
+
 def ft2_to_m2(val):
     return round(val * 0.0929, 2)
 
@@ -159,6 +159,7 @@ wall_summary_rows = sorted(
     [[t, "{} m²".format(round(a, 2)), 0] for t, a in wall_type_totals.items()],
     key=lambda x: float(x[1].replace(" m²", "")), reverse=True
 )
+
 # Add count
 for row in wall_summary_rows:
     row[2] = sum(1 for w in wall_rows if w[0] == row[0])
@@ -220,14 +221,14 @@ ceiling_summary_rows = sorted(
 
 material_rows = []
 for m in materials:
-    # Appearance asset name
+
     ap = m.AppearanceAssetId
     ap_name = "—"
     if ap != ElementId.InvalidElementId:
         ap_elem = doc.GetElement(ap)
         ap_name = ap_elem.Name if ap_elem else "—"
 
-    # Shading color
+
     color = m.Color
     if color.IsValid:
         hex_color = "#{:02X}{:02X}{:02X}".format(color.Red, color.Green, color.Blue)
@@ -238,11 +239,11 @@ for m in materials:
     else:
         swatch = "—"
 
-    # Cut fill pattern
+
     cut_pat = m.CutForegroundPatternId
     has_cut = "✓" if cut_pat != ElementId.InvalidElementId else "—"
 
-    # Surface fill pattern
+
     surf_pat = m.SurfaceForegroundPatternId
     has_surf = "✓" if surf_pat != ElementId.InvalidElementId else "—"
 
@@ -257,7 +258,7 @@ for m in materials:
         m.Id.IntegerValue,
     ])
 
-material_rows.sort(key=lambda x: x[0])  # sort by name
+material_rows.sort(key=lambda x: x[0])  
 
 # ── Scoring ───────────────────────────────────────────────────────────────────
 
@@ -293,7 +294,7 @@ deductions = {
 
 raw_score = 70.0
 
-# Add positive points
+
 for label, (condition, points) in positive_points.items():
     if condition:
         raw_score += points
