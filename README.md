@@ -188,3 +188,11 @@ This project was developed as part of a BIM automation learning journey focused 
 * BIM data analytics
 * Model governance workflows
 * Digital construction technologies
+
+<img width="1447" height="896" alt="Image" src="https://github.com/user-attachments/assets/fb38b1b6-0fe7-4ea3-9428-fc250be7e25f" />
+<img width="1361" height="906" alt="Image" src="https://github.com/user-attachments/assets/d4ed2f62-bb6e-40ec-a31e-2f2e9dc3b85c" />
+<img width="1352" height="887" alt="Image" src="https://github.com/user-attachments/assets/8bedd7d3-6302-4d18-9b08-8a803917b0a8" />
+<img width="1386" height="862" alt="Image" src="https://github.com/user-attachments/assets/0d7f8ab1-14a1-492e-86ff-27d72d4efbab" />
+<img width="1382" height="902" alt="Image" src="https://github.com/user-attachments/assets/8e0a2ff9-4d8b-41f4-a4dc-40e1d1bae984" />
+<img width="1350" height="907" alt="Image" src="https://github.com/user-attachments/assets/b4419820-6078-4a19-997e-95bf0212258a" />
+<img width="1372" height="905" alt="Image" src="https://github.com/user-attachments/assets/00d3f730-b4c5-41fd-b2c1-f6bfbcb21dc3" />
